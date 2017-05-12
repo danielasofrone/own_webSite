@@ -1,0 +1,5 @@
+.cover-image {
+    background-image: url('images/portrait.jpg') !important;
+    background-size: cover;
+    height: 950px;
+}
