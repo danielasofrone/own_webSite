@@ -1,5 +1,23 @@
+/*Font*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+/*Header*/
+.header {
+  background-color: #000;
+}
+
+/*Jumbotron*/
+
 .cover-image {
-    background-image: url('images/portrait.jpg') !important;
+    background-image: url('images/portrait2 copy.jpg') !important;
     background-size: cover;
-    height: 950px;
+    height: 650px;
 }

@@ -7,27 +7,104 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
   <div class="container">
+    <div class="row header">
+        <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Daniela Sofrone</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="./">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Photography</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+    <!--Jumbotron-->
     <div class="jumbotron cover-image">
-      <h1> Daniela Sofrone </h1>
-        <p> At the moment I am studying software testing and working on personal coding projects in order to learn while creating new applications.
-          My bigger objective is to become a full stack developer. The first step in that direction is doing software testing which helps me learn about quality, usability, agile methodologies and software in general. </p>
+      <h1>Daniela Sofrone</h1>
+      <p>At the moment I am studying software testing and working on personal coding projects in order to learn while creating new applications.
+        My bigger objective is to become a full stack developer. The first step in that direction is doing software testing which helps me learn about quality, usability, agile methodologies and software in general.</p>
+      </div>
+  </div>
+
+
+      <!--Projects-->
+      <div class="row">
+
+        <h2 class="text-center">Coding projects</h2>
+        <p class="text-center">At the moment I am studying software testing and working on personal coding projects in order to learn while creating new applications. </p>
+        <div class="col-md-4">
+          <h3>Web quiz</h3>
+          <p>A multiple choice quiz in html and JS. So far it only contains three questions. Working on looping through the questions and avoing the use of JQuery.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Amazon Alexa skills</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium. Mauris elit orci, ultricies id fermentum vel, porta et eros. Vestibulum condimentum lectus in convallis feugiat.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>iOS Fun Fact app</h3>
+          <p>A simple fun facts application in Swift 3.0 Created following instructions in a Team Treehouse course, changed the content of the fun facts and colors. The app shows a new fun fact when clicking the button, and the color of the background and of the text changes accordingly.</p>
+        </div>
+      </div>
+
+      <!--Photography-->
+      <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          <h2 class>Photography</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium. Mauris elit orci, ultricies id fermentum vel, porta et eros. Vestibulum condimentum lectus in convallis feugiat.</p>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4">
+            <img src=" http://placehold.it/300x380" alt="Photo">
+          </div>
+          <div class="col-md-8 col-lg-8">
+            <img src=" http://placehold.it/620x380" alt="Photo">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-lg-8">
+            <img src=" http://placehold.it/620x380" alt="Photo">
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <img src=" http://placehold.it/300x380" alt="Photo">
+          </div>
         </div>
 
+
+      <!--Footer-->
+      <div class="row">
+        <ul class="list-inline text-center">
+          <li><a href ="https://twitter.com/daniela_sofrone">Twitter</a></li>
+          <li><a href ="https://github.com/danielasofrone">Github</a></li>
+          <li><a href ="https://www.linkedin.com/in/daniela-sofrone-2ab7289b/">Linkedin</a></li>
+          <li><a href ="https://www.flickr.com/photos/steepwater/">Flickr</a></li>
+        </ul>
+        <p class="text-center">&copy; 2017 Daniela Sofrone </p>
       </div>
-    </section>
-    <script src="main.js"></script>
-  </div>
-  <footer>
+    </div>
+
+    <script src="app.js"></script>
+
+    <!-- <footer>
     <p>&copy; 2017 Daniela Sofrone </p>
     <a href ="https://twitter.com/daniela_sofrone" target="_blank"><img src="images/twitter-wrap.png" alt="TwitterLogo"  class="social-icon"></a>
     <a href ="https://www.flickr.com/photos/steepwater/" target="_blank"><img src="images/Flickr.png" alt="Flickr Logo" class="social-icon"></a>
-  </footer>
+  </footer> -->
 </body>
 </html>
