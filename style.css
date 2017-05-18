@@ -4,20 +4,59 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #818a8c;
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, .navbar-brand {
   font-family: 'Playfair Display', serif;
+  color: #4a4a4a;
+}
+.navbar-inverse {
+  background-color: #000;
+}
+.logo {
+  color: #999999;
+}
+.margin-lg {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.margin-md {
+  margin-top: 16px;
 }
 
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+  opacity: 0.8;
+  padding-left: 32px;
+}
+.navbar-inverse .navbar-brand:hover {
+  opacity: 1;
+}
 /*Header*/
 .header {
   background-color: #000;
 }
-
 /*Jumbotron*/
+.jumbotron {
+  background-color: #000000;
+  min-height: 300px;
+}
+.jumbotron p {
+  font-size: 18px;
+}
+.jumbotron-mugshot img{
+  max-width: 350px;
 
-.cover-image {
-    background-image: url('images/portrait2 copy.jpg') !important;
-    background-size: cover;
-    height: 650px;
+
+}
+.header-inverse h2 {
+  color: #fff;
+}
+
+.non-inline-links a {
+  color: #838c8e;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  font-size: 12px;
 }
