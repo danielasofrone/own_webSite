@@ -9,7 +9,9 @@ body {
 h1, h2, h3, h4, h5, .navbar-brand {
   font-family: 'Playfair Display', serif;
   color: #4a4a4a;
+  font-weight: bold;
 }
+
 .navbar-inverse {
   background-color: #000;
 }
@@ -20,6 +22,10 @@ h1, h2, h3, h4, h5, .navbar-brand {
   margin-top: 32px;
   margin-bottom: 32px;
 }
+.margin-xl {
+  margin-top: 64px;
+  margin-bottom: 44px;
+}
 .margin-md {
   margin-top: 16px;
 }
@@ -27,7 +33,7 @@ h1, h2, h3, h4, h5, .navbar-brand {
 .navbar-inverse .navbar-brand {
   color: #ffffff;
   opacity: 0.8;
-  padding-left: 32px;
+  /*padding-left: 32px;*/
 }
 .navbar-inverse .navbar-brand:hover {
   opacity: 1;
@@ -51,6 +57,9 @@ h1, h2, h3, h4, h5, .navbar-brand {
 }
 .header-inverse h2 {
   color: #fff;
+}
+.header-inverse p {
+  font-size: 18px;
 }
 
 .non-inline-links a {
